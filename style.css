@@ -58,7 +58,6 @@ body {
     font-size: 22px;
 }
 
-
 .products {
     width: 80%;
     margin: 20px auto;
@@ -83,9 +82,10 @@ body {
 }
 
 .product img {
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 150px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .product-info {
@@ -102,7 +102,6 @@ body {
     color: #666;
     margin-bottom: 10px;
 }
-
 
 button {
     padding: 12.5px 30px;
